@@ -1,0 +1,45 @@
+{
+  "editor.fontFamily": "Consolas",
+  "editor.tabSize": 2,
+  "editor.fontSize": 16,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.copyWithSyntaxHighlighting": false,
+  "editor.find.autoFindInSelection": true,
+  "editor.quickSuggestions": false,
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
+  "files.insertFinalNewline": true,
+  "workbench.enableExperiments": false,
+  "window.newWindowDimensions": "inherit",
+  "search.showLineNumbers": true,
+  "terminal.integrated.fontSize": 16,
+  "files.autoSave": "onFocusChange",
+  "editor.wrappingIndent": "deepIndent",
+  "editor.minimap.enabled": true,
+  "workbench.startupEditor": "none",
+  "explorer.confirmDragAndDrop": false,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "launch": {
+      "version": "0.2.0",
+      "configurations": [
+        {
+          "name": "Debug Local File",
+          "type": "Ruby",
+          "request": "launch",
+          "cwd": "${workspaceRoot}",
+          "program": "${file}"
+        }
+      ]
+  },
+  "editor.wordWrapColumn": 120,
+  "[markdown]":{
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 80,
+  },
+  "workbench.statusBar.visible": true,
+  "workbench.activityBar.visible": true,
+  "explorer.confirmDelete": false,
+  "window.zoomLevel": 0,
+  "editor.tabCompletion": "onlySnippets",
+}
