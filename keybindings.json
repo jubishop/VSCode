@@ -1,0 +1,15 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "ctrl+alt+cmd+t",
+    "command": "workbench.action.terminal.focus"
+  },
+  {
+    "key": "alt+cmd+t",
+    "command": "-workbench.action.closeOtherEditors"
+  },
+  {
+    "key": "ctrl+alt+cmd+w",
+    "command": "workbench.action.closePanel"
+  }
+]
