@@ -15,7 +15,7 @@
 	"jubilib" : {
 		"prefix": "jubi",
 		"body": [
-			"require_relative '${1:..}/jubilib/$2.rb'",
+			"require_relative '${1:../}jubilib/$2.rb'",
 			"$0"
 		],
 		"description": "For easily including jubilib files"
