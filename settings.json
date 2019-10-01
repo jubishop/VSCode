@@ -40,6 +40,5 @@
   "workbench.statusBar.visible": true,
   "workbench.activityBar.visible": true,
   "explorer.confirmDelete": false,
-  "window.zoomLevel": 0,
   "editor.tabCompletion": "onlySnippets",
 }
