@@ -1,7 +1,7 @@
 {
   "editor.fontFamily": "Consolas",
   "editor.tabSize": 2,
-  "editor.fontSize": 16,
+  "editor.fontSize": 18,
   "editor.wordWrap": "wordWrapColumn",
   "editor.copyWithSyntaxHighlighting": false,
   "editor.find.autoFindInSelection": true,
@@ -41,4 +41,5 @@
   "workbench.activityBar.visible": true,
   "explorer.confirmDelete": false,
   "editor.tabCompletion": "onlySnippets",
+  "window.zoomLevel": 0,
 }
