@@ -1,7 +1,7 @@
 {
   "editor.fontFamily": "Fira code",
   "editor.tabSize": 2,
-  "editor.fontSize": 27,
+  "editor.fontSize": 26,
   "editor.wordWrap": "wordWrapColumn",
   "editor.copyWithSyntaxHighlighting": false,
   "editor.find.autoFindInSelection": true,
