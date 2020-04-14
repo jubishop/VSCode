@@ -41,4 +41,5 @@
   "explorer.confirmDelete": false,
   "editor.tabCompletion": "onlySnippets",
   "editor.fontLigatures": true,
+  "editor.wordWrapColumn": 120,
 }
