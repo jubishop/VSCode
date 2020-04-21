@@ -1,7 +1,7 @@
 {
   "editor.fontFamily": "Fira code",
   "editor.tabSize": 2,
-  "editor.fontSize": 26,
+  "editor.fontSize": 18,
   "editor.wordWrap": "wordWrapColumn",
   "editor.copyWithSyntaxHighlighting": false,
   "editor.find.autoFindInSelection": true,
@@ -42,4 +42,5 @@
   "editor.tabCompletion": "onlySnippets",
   "editor.fontLigatures": true,
   "editor.wordWrapColumn": 120,
+  "window.zoomLevel": 2,
 }
