@@ -1,15 +1,22 @@
-// Place your key bindings in this file to override the defaultsauto[]
 [
   {
-    "key": "ctrl+alt+cmd+t",
-    "command": "workbench.action.terminal.focus"
+    "key": "ctrl+shift+down",
+    "command": "cursorColumnSelectDown",
+    "when": "editorTextFocus"
   },
   {
-    "key": "alt+cmd+t",
-    "command": "-workbench.action.closeOtherEditors"
+      "key": "ctrl+shift+left",
+      "command": "cursorColumnSelectLeft",
+      "when": "editorTextFocus"
   },
   {
-    "key": "ctrl+alt+cmd+w",
-    "command": "workbench.action.closePanel"
+      "key": "ctrl+shift+right",
+      "command": "cursorColumnSelectRight",
+      "when": "editorTextFocus"
+  },
+  {
+      "key": "ctrl+shift+up",
+      "command": "cursorColumnSelectUp",
+      "when": "editorTextFocus"
   }
 ]
