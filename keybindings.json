@@ -10,13 +10,23 @@
       "when": "editorTextFocus"
   },
   {
-      "key": "ctrl+shift+right",
-      "command": "cursorColumnSelectRight",
-      "when": "editorTextFocus"
-  },
-  {
       "key": "ctrl+shift+up",
       "command": "cursorColumnSelectUp",
       "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+right",
+    "command": "-editor.action.smartSelect.expand",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+right",
+    "command": "editor.action.addSelectionToNextFindMatch",
+    "when": "editorFocus"
+  },
+  {
+    "key": "cmd+d",
+    "command": "-editor.action.addSelectionToNextFindMatch",
+    "when": "editorFocus"
   }
 ]
