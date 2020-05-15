@@ -3,6 +3,7 @@
   "editor.tabSize": 2,
   "editor.fontSize": 18,
   "editor.wordWrap": "wordWrapColumn",
+  "editor.rulers": [80],
   "editor.copyWithSyntaxHighlighting": false,
   "editor.find.autoFindInSelection": true,
   "editor.quickSuggestions": false,
@@ -15,7 +16,7 @@
   "terminal.integrated.fontSize": 16,
   "files.autoSave": "onFocusChange",
   "editor.wrappingIndent": "deepIndent",
-  "editor.minimap.enabled": true,
+  "editor.minimap.enabled": false,
   "workbench.startupEditor": "none",
   "explorer.confirmDragAndDrop": false,
   "workbench.editor.enablePreview": false,
@@ -36,11 +37,15 @@
     "editor.wordWrap": "wordWrapColumn",
     "editor.wordWrapColumn": 80,
   },
+  "[json]": {
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 120,
+    "editor.rulers": [120],
+  }
   "workbench.statusBar.visible": true,
   "workbench.activityBar.visible": true,
   "explorer.confirmDelete": false,
   "editor.tabCompletion": "onlySnippets",
   "editor.fontLigatures": true,
-  "editor.wordWrapColumn": 120,
   "window.zoomLevel": 2,
 }
