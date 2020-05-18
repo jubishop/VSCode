@@ -3,6 +3,7 @@
   "editor.tabSize": 2,
   "editor.fontSize": 18,
   "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 80,
   "editor.rulers": [80],
   "editor.copyWithSyntaxHighlighting": false,
   "editor.find.autoFindInSelection": true,
@@ -33,12 +34,7 @@
         }
       ]
   },
-  "[markdown]":{
-    "editor.wordWrap": "wordWrapColumn",
-    "editor.wordWrapColumn": 80,
-  },
   "[json]": {
-    "editor.wordWrap": "wordWrapColumn",
     "editor.wordWrapColumn": 120,
     "editor.rulers": [120],
   }
