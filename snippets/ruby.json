@@ -1,10 +1,18 @@
 {
-	"jubilib" : {
-		"prefix": "jubi",
+	"KVStruct" : {
+		"prefix": "kv",
 		"body": [
-			"require_relative '${1:../}jubilib/$2.rb'",
-			"$0"
+			"$1 = KVStruct.new($0)",
+			"${2|private,public|}_constant :$1"
 		],
-		"description": "For easily including jubilib files"
+		"description": "Insert KVStruct with private|public constant"
+	},
+	"RStruct" : {
+		"prefix": "r",
+		"body": [
+			"$1 = RStruct.new($0)",
+			"${2|private,public|}_constant :$1"
+		],
+		"description": "Insert RStruct with private|public constant"
 	}
 }
