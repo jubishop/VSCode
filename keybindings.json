@@ -28,5 +28,45 @@
     "key": "cmd+d",
     "command": "-editor.action.addSelectionToNextFindMatch",
     "when": "editorFocus"
+  },
+  {
+    "key": "alt+cmd+right",
+    "command": "workbench.action.nextEditorInGroup"
+  },
+  {
+    "key": "cmd+k alt+cmd+right",
+    "command": "-workbench.action.nextEditorInGroup"
+  },
+  {
+    "key": "alt+cmd+right",
+    "command": "-workbench.action.nextEditor"
+  },
+  {
+    "key": "alt+cmd+left",
+    "command": "-workbench.action.previousEditor"
+  },
+  {
+    "key": "alt+cmd+left",
+    "command": "workbench.action.previousEditorInGroup"
+  },
+  {
+    "key": "cmd+k alt+cmd+left",
+    "command": "-workbench.action.previousEditorInGroup"
+  },
+  {
+    "key": "ctrl+cmd+right",
+    "command": "-workbench.action.moveEditorToNextGroup"
+  },
+  {
+    "key": "ctrl+cmd+right",
+    "command": "workbench.action.focusNextGroup"
+  },
+  {
+    "key": "ctrl+cmd+left",
+    "command": "-workbench.action.moveEditorToPreviousGroup"
+  },
+  {
+    "key": "ctrl+cmd+left",
+    "command": "workbench.action.focusPreviousGroup"
   }
 ]
