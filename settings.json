@@ -47,6 +47,5 @@
   "editor.tabCompletion": "onlySnippets",
   "editor.fontLigatures": true,
   "window.zoomLevel": 2,
-  "workbench.colorTheme": "Visual Studio Dark",
   "workbench.iconTheme": "material-icon-theme",
 }
