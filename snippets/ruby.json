@@ -8,11 +8,29 @@
 		"description": "Insert KVStruct with private|public constant"
 	},
 	"RStruct" : {
-		"prefix": "r",
+		"prefix": "rs",
 		"body": [
 			"$1 = RStruct.new($0)",
 			"${2|private,public|}_constant :$1"
 		],
 		"description": "Insert RStruct with private|public constant"
-	}
+	},
+	"Main Comment Header": {
+		"prefix": "##",
+		"body": [
+			"#####################################",
+			"# $1"
+			"#####################################",
+			"",
+			"$0"
+		]
+	},
+	"Sub Comment Header": {
+		"prefix": "#-",
+		"body": [
+			"##### $1 #####",
+			"",
+			"$0"
+		]
+	},
 }
