@@ -4,7 +4,9 @@
   "editor.fontSize": 18,
   "editor.wordWrap": "wordWrapColumn",
   "editor.wordWrapColumn": 80,
-  "editor.rulers": [80],
+  "editor.rulers": [
+    80
+  ],
   "editor.copyWithSyntaxHighlighting": false,
   "editor.find.autoFindInSelection": "never",
   "editor.quickSuggestions": false,
@@ -23,20 +25,22 @@
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "launch": {
-      "version": "0.2.0",
-      "configurations": [
-        {
-          "name": "Debug Local File",
-          "type": "Ruby",
-          "request": "launch",
-          "cwd": "${workspaceRoot}",
-          "program": "${file}"
-        }
-      ]
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Debug Local File",
+        "type": "Ruby",
+        "request": "launch",
+        "cwd": "${workspaceRoot}",
+        "program": "${file}"
+      }
+    ]
   },
   "[json]": {
     "editor.wordWrapColumn": 120,
-    "editor.rulers": [120],
+    "editor.rulers": [
+      120
+    ],
   },
   "[markdown]": {
     "editor.wordWrap": "wordWrapColumn",
@@ -48,4 +52,17 @@
   "editor.fontLigatures": true,
   "window.zoomLevel": 2,
   "workbench.iconTheme": "material-icon-theme",
+  "[css]": {
+    "editor.defaultFormatter": "mrmlnc.vscode-postcss-sorting"
+  },
+  "postcssSorting.config": {
+    "order": [
+      "custom-properties",
+      "dollar-variables",
+      "declarations",
+      "rules",
+      "at-rules"
+    ],
+    "properties-order": "alphabetical",
+  }
 }
