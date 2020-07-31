@@ -68,5 +68,9 @@
   {
     "key": "ctrl+cmd+left",
     "command": "workbench.action.focusPreviousGroup"
+  },
+  {
+    "key": "ctrl+shift+f",
+    "command": "beautify.format"
   }
 ]
