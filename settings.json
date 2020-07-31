@@ -37,9 +37,9 @@
     ]
   },
   "[json]": {
-    "editor.wordWrapColumn": 120,
+    "editor.wordWrapColumn": 100,
     "editor.rulers": [
-      120
+      100
     ],
   },
   "[markdown]": {
@@ -52,6 +52,12 @@
   "editor.fontLigatures": true,
   "window.zoomLevel": 2,
   "workbench.iconTheme": "material-icon-theme",
+  "[html]": {
+    "editor.wordWrapColumn": 100,
+    "editor.rulers": [
+      100
+    ],
+  },
   "[css]": {
     "editor.defaultFormatter": "mrmlnc.vscode-postcss-sorting",
     "editor.wordWrapColumn": 100,
