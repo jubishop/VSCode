@@ -58,6 +58,9 @@
       100
     ],
   },
+  "htmlhint.options": {
+    "attr-value-double-quotes": false,
+  },
   "[css]": {
     "editor.defaultFormatter": "mrmlnc.vscode-postcss-sorting",
     "editor.wordWrapColumn": 100,
