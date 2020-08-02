@@ -1,11 +1,5 @@
 {
 	// Basic tags
-	"<": {
-		"prefix": "<",
-		"body": [
-			"<$1 $2>$0</$1>",
-		]
-	},
 	"img": {
 		"prefix": "img",
 		"body": [
@@ -16,8 +10,7 @@
 	"a": {
 		"prefix": "a",
 		"body": [
-			"<a href=\"$1\"${2: class=\"$3\"}>$4</a>",
-			"$0"
+			"<a href=\"$1\"${2: class=\"$3\"}${4: target=\"${5:_blank}\"}>$6</a>$0",
 		]
 	},
 	"div": {
@@ -62,5 +55,12 @@
 			"$0"
 		]
 	},
-
+	"Timeline Period": {
+		"prefix": "per",
+		"body": [
+			"<div class=\"timeline-period\">",
+			"	<h2>$0</h2>",
+			"</div>"
+		]
+	}
 }
