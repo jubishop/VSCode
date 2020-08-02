@@ -16,7 +16,9 @@
 			"<li class=\"timeline-item\">",
 			"  <div class=\"timeline-date\">$1</div>",
 			"  <div class=\"timeline-content\">",
-			"    $0"
+			"    $0",
+			"  </div>",
+			"</li>"
 		]
 	},
 	"Carousel": {
