@@ -1,0 +1,43 @@
+{
+	// Basic tags
+	"div": {
+		"prefix": "div",
+		"body": [
+			"<div class=\"$1\">",
+			"  $0",
+			"</div>"
+		]
+	}
+	// Temporary "about-me" page snippets
+	"Timeline item": {
+		"prefix": "tim",
+		"body": [
+			"<li class=\"timeline-item\">",
+			"  <div class=\"timeline-date\">$1</div>",
+			"  <div class=\"timeline-content\">",
+			"    $0"
+		]
+	},
+	"Carousel": {
+		"prefix": "car",
+		"body": [
+			"<div class=\"carousel\"",
+			"     data-flickity='{ \"wrapAround\": true,",
+			"								 			 \"fullscreen\": true,",
+			"								 			 \"lazyLoad\": true,",
+			"								 			 \"pageDots\": false }'>",
+			"  ${0:cel}",
+			"</div>"
+		]
+	},
+	"Carousel cell": {
+		"prefix": "cel",
+		"body": [
+			"<div class=\"carousel-cell\">",
+			"  <img class=\"carousel-image\" data-flickity-lazyload=\"$1\" />",
+			"</div>",
+			"$0"
+		]
+	},
+
+}
