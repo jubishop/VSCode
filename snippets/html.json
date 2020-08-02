@@ -1,5 +1,25 @@
 {
 	// Basic tags
+	"<": {
+		"prefix": "<",
+		"body": [
+			"<$1 $2>$0</$1>",
+		]
+	},
+	"img": {
+		"prefix": "img",
+		"body": [
+			"<img src=\"$1\" ${2:alt=\"$3\" }/>",
+			"$0"
+		]
+	},
+	"a": {
+		"prefix": "a",
+		"body": [
+			"<a href=\"$1\"${2: class=\"$3\"}>$4</a>",
+			"$0"
+		]
+	},
 	"div": {
 		"prefix": "div",
 		"body": [
