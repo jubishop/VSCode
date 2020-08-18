@@ -62,11 +62,11 @@
     "attr-value-double-quotes": false,
   },
   "[css]": {
-    "editor.defaultFormatter": "mrmlnc.vscode-postcss-sorting",
     "editor.wordWrapColumn": 100,
     "editor.rulers": [
       100
     ],
+    "editor.defaultFormatter": "mrmlnc.vscode-postcss-sorting",
   },
   "postcssSorting.config": {
     "order": [
