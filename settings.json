@@ -77,5 +77,6 @@
       "at-rules"
     ],
     "properties-order": "alphabetical",
-  }
+  },
+  "editor.detectIndentation": false
 }
