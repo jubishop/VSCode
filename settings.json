@@ -51,20 +51,10 @@
   "editor.fontLigatures": true,
   "window.zoomLevel": 5,
   "workbench.iconTheme": "material-icon-theme",
-  "[html]": {
-    "editor.wordWrapColumn": 100,
-    "editor.rulers": [
-      100
-    ],
-  },
   "htmlhint.options": {
     "attr-value-double-quotes": false,
   },
   "[css]": {
-    "editor.wordWrapColumn": 100,
-    "editor.rulers": [
-      100
-    ],
     "editor.defaultFormatter": "mrmlnc.vscode-postcss-sorting",
   },
   "postcssSorting.config": {
