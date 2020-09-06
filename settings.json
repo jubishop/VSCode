@@ -49,7 +49,7 @@
   "explorer.confirmDelete": false,
   "editor.tabCompletion": "onlySnippets",
   "editor.fontLigatures": true,
-  "window.zoomLevel": 5,
+  "window.zoomLevel": 6,
   "workbench.iconTheme": "material-icon-theme",
   "htmlhint.options": {
     "attr-value-double-quotes": false,
