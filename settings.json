@@ -43,6 +43,7 @@
   },
   "[markdown]": {
     "editor.wordWrap": "wordWrapColumn",
+    "editor.autoClosingBrackets": "never"
   },
   "workbench.statusBar.visible": true,
   "workbench.activityBar.visible": true,
@@ -67,5 +68,5 @@
     ],
     "properties-order": "alphabetical",
   },
-  "editor.detectIndentation": false
+  "editor.detectIndentation": false,
 }
