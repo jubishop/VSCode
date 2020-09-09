@@ -42,7 +42,8 @@
     ],
   },
   "[markdown]": {
-    "editor.autoClosingBrackets": "never"
+    "editor.autoClosingBrackets": "never",
+    "editor.wordWrap": "wordWrapColumn",
   },
   "workbench.statusBar.visible": true,
   "workbench.activityBar.visible": true,
