@@ -76,5 +76,4 @@
     "properties-order": "alphabetical",
   },
   "editor.detectIndentation": false,
-  "go.formatTool": "goimports",
 }
