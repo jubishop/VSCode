@@ -74,4 +74,10 @@
   },
   "editor.detectIndentation": false,
   "go.formatTool": "goimports",
+  "workbench.editorAssociations": [
+    {
+      "viewType": "jupyter.notebook.ipynb",
+      "filenamePattern": "*.ipynb"
+    }
+  ],
 }
