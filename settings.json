@@ -9,6 +9,9 @@
   "editor.copyWithSyntaxHighlighting": false,
   "editor.find.autoFindInSelection": "never",
   "editor.quickSuggestions": false,
+  "files.associations": {
+    "Steepfile": "ruby"
+  },
   "files.trimTrailingWhitespace": true,
   "files.trimFinalNewlines": true,
   "files.insertFinalNewline": true,
