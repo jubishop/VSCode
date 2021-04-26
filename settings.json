@@ -76,7 +76,6 @@
     "properties-order": "alphabetical",
   },
   "editor.detectIndentation": false,
-  "ruby.rubocop.useBundler": true,
   "go.formatTool": "goimports",
   "workbench.editorAssociations": [
     {
